@@ -86,19 +86,25 @@ main{
     font-weight: bolder;
 }
 #btt{
+    max-width: 50%;
     margin-left: 16px;
     display: flex;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-end;
+}
+#btt-frase, #btt-reset{
+    width: 100%;
 }
 div button{
-    padding: 4px 16px;
+    padding: 4px;
     border: 5px solid #ff6347;
     border-radius: 30px;
     background-color: whitesmoke;
     color: tomato;
     text-align: center;
     font-weight: 700;
-    font-size: 1.2em;
+    font-size: 1.1em;
     cursor: pointer;
 }
 div button:hover{
