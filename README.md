@@ -1,2 +1,2 @@
 # cronometro
- Cronômetro de Digitação
+ Cronômetro de Digitação https://xandong.github.io/cronometro/
