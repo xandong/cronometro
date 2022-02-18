@@ -89,6 +89,7 @@ main{
     max-width: 50%;
     margin-left: 16px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
     justify-content: flex-end;
@@ -112,9 +113,20 @@ div button:hover{
     color: whitesmoke;
     transition-duration: 0.2s;
 }
-
-
-
 footer{
-
+    background-color: black;
+}
+footer p{
+    color: whitesmoke;
+    margin-top: 32px;
+    padding: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+footer a:hover{
+    color: teal;
 }
