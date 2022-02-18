@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" async></script>
+</head>
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <header>
+        <h1>Teste a sua <em>velocidade</em> de digitação</h1>
+    </header>
+    <main>
+        <div id="main">
+            <section class="sec1">
+                <article id="descrição">
+                    <p>Este é um teste de digitação. Seu objetivo é duplicar o teste fornecido, <strong>EXATAMENTE</strong>, no campo abaixo. O timer iniciar quando você começa  digitar e só para quando o seu texto estiver idêntico ao original. Boa sorte, jovem!</p>
+                </article>
+            </section>
+            <section class="sec2">
+                <div id="teste">
+                    <p id="modelo">Reescreva essa</p>
+                </div>
+                <div id="input_">
+                    <textarea rows="4" name="AreaTest" id="areaTest" placeholder="Comece a digitar para iniciar o timer!"></textarea>
+                </div>
+                <div class="div-timer-btt">
+                    <div id="timer">
+                        00:00:00
+                    </div>
+                    <div id="btt">
+                        <button id="btt-frase">Mudar Frase</button>
+                        <button id="btt-reset">
+                            Começar novamente
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
